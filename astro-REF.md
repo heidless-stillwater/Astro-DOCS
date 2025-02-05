@@ -19,6 +19,7 @@ npx astro sync    # setup types for typescript. Sets up a '.astro/types.d.ts' fi
 npm create astro@latest -- --template with-tailwindcss xata-astro-0
 
 
+
 xata init   # init DB
 
 mkdir DB-config

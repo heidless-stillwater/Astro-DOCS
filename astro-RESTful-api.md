@@ -13,8 +13,7 @@ subsequent logins is new API key
 
 --
 # remove src/.xatarc to completely refresh
-npm init
-xata init --force
+xata init 
 
 ```
 
