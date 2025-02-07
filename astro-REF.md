@@ -8,15 +8,79 @@ npm create astro@latest
 mad-man-astro
 --
 
-
 npx astro sync    # setup types for typescript. Sets up a '.astro/types.d.ts' file  
 
 ```
 
 # xata
+- ## [Adding Serverless Databases to Astro with Xata!](https://www.youtube.com/watch?v=BMHTGri2u7k)
+  - ## [GIT - EXEMPLAR - xata]()
+```
+npm create astro@latest -- --template with-tailwindcss xata-astro-3
+
+npm install @xata.io/cli -g 
+
+# initial login after install
+xata auth login --force
+--
+generate API
+subsequent logins is new API key
+
+--
+
+xata init
+
+vi xata.ts
+--
+
+export const getXataClient = () => {
+  if (instance) return instance;
+
+  instance = new XataClient(
+    { 
+      apiKey: import.meta.env.XATA_API_KEY,
+      branch: import.meta.env.XATA_BRANCH 
+    }
+  );
+  return instance;
+};
+
+--
+
+```
+
+# [CSV File Examples](https://support.staffbase.com/hc/en-us/articles/360007108391-CSV-File-Examples)
+```
+
+
+
+```
+
+
+# [DotEnv](https://www.freecodecamp.org/news/how-to-use-node-environment-variables-with-a-dotenv-file-for-node-js-and-npm/)
+```
+npm create astro@latest -- --template with-tailwindcss xata-astro-3
+
+npm i dotenv
+
+--
+require('dotenv').config()
+
+# remove 'module' entry from package.json
+
+
+console.log(`XATA_API_KEY: ${process.env.XATA_API_KEY}`)
+
+
+--
+
+```
+
+
+
 - ## [Get started with Astro and Xata](https://xata.io/docs/getting-started/astro)
 ```
-npm create astro@latest -- --template with-tailwindcss xata-astro-0
+npm create astro@latest -- --template with-tailwindcss xata-astro-
 
 
 

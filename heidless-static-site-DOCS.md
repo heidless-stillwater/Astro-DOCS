@@ -13,12 +13,6 @@ Setup Nameservers on HOST(Squarespace)
 
 # [netlify: heidless-static-site](https://app.netlify.com/sites/heidless-static-site-0/overview)
 
-
-
-
-
-
-
 <br />
 <br />
 <br />
