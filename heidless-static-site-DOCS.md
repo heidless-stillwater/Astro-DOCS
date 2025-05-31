@@ -1,6 +1,9 @@
 
 # [git: heidless-static](https://github.com/heidless-stillwater/heidless-static)
 
+
+# DEPLOYED on Netlify
+
 # [Assign a domain to a production site](https://docs.netlify.com/domains-https/custom-domains/#assign-a-domain-to-a-production-site)
 - ## [squarespace: scrummingit.co.uk](https://account.squarespace.com/domains/managed/scrummingit.co.uk)
 ```
@@ -10,7 +13,6 @@ https://app.netlify.com/sites/heidless-static-site-0/domain-management
 Setup Nameservers on HOST(Squarespace)
 
 ```
-
 # [netlify: heidless-static-site](https://app.netlify.com/sites/heidless-static-site-0/overview)
 
 <br />
